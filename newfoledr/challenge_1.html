@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+            background-image: url(image/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg);
+        }
+        .container{
+            border: 2px solid blue;
+            background-color: aliceblue;
+            margin: 50px 290px;
+            padding: 22px;
+            width: 40%;
+           
+
+        }
+
+        input[type ="submit"]:hover{
+            background-color: rgb(219, 251, 251);
+            
+        }
+        .co{
+            text-align: center;
+        }
+
+        #name, #email,#ph{
+            padding: 7px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="co">Contact info</h1>
+        <section class="data">
+            <p>
+                Name <input type="text" id="name">
+            </p>
+            <p>
+                Email <input type="email" id="email">
+            </p>
+            <p>
+                phone no. <input type="number" id="ph">
+            </p>
+            <p>
+                Address <textarea name="address" id="" cols="30" rows="10" 
+                ></textarea>
+            </p>
+            <p>
+               <input type="checkbox" name="check" id=""> I accept the term of services 
+            </p>
+            <input type="submit" value="submit">
+
+        </section>
+    </div>
+    </form>
+    
+</body>
+</html>
